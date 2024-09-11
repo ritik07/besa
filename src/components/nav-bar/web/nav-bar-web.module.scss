@@ -1,0 +1,129 @@
+@import "../../../styles//colors";
+
+.menu_container {
+  align-content: center
+}
+
+.cs_navbar_logo {
+  max-height: 100%;
+  width: fit-content;
+}
+
+.cs_nav_bar_container {
+  background-color: $whiteColor;
+}
+
+.cs_navbar_logo_container {
+  max-height: 80px;
+  height: 80px;
+}
+
+.logo_txt_dummy {
+  font-size: large;
+  color: $blackColor;
+}
+
+.menu_btn {
+  color: #000;
+  font-size: 30px !important;
+  font-weight: 500 !important;
+  display: flex;
+  align-items: center;
+}
+
+.menu_slide_in {
+  position: fixed; // Fixed positioning to stay on top of other content
+  top: 0;
+  right: 0;
+  width: 100vw; // Full viewport width
+  height: 100vh; // Full viewport height
+  background-color: rgba(0, 0, 0, 0.9); // Dark semi-transparent background
+  z-index: 9999; // Ensure it’s on top of other components
+  transform: translateX(100%); // Start off-screen to the right
+  transition: transform 0.8s ease; // Smooth sliding effect
+  display: flex; // Use flexbox for content alignment
+  flex-direction: column; // Stack menu items vertically
+  justify-content: center; // Center content vertically
+  align-items: center; // Center content horizontally
+}
+
+.menu_content {
+  color: white; // Text color for contrast
+  text-align: center;
+  font-size: 24px;
+}
+
+.menu_content ul {
+  list-style: none; // Remove default list styling
+  padding: 0;
+}
+
+.menu_content li {
+  margin: 10px 0; // Space between menu items
+  font-size: 20px;
+  cursor: pointer; // Pointer cursor on hover
+  transition: color 0.3s; // Smooth color transition on hover
+}
+
+.menu_content li:hover {
+  color: #f39c12; // Highlight color on hover
+}
+
+.menu_btn {
+  cursor: pointer; // Pointer cursor to indicate clickable element
+  color: #000; // Text color
+  font-size: 18px;
+  transition: color 0.3s; // Smooth color transition on hover
+}
+
+.menu_btn:hover {
+  color: #f39c12; // Highlight color on hover
+}
+
+.menu_close_btn {
+  position: absolute;
+  top: 25px;
+  right: 0px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #f39c12; // Highlight color on hover
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu_content li {
+  margin: 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0; // Start with opacity 0
+  transform: translateY(20px); // Start with a slight vertical offset
+  animation: fadeInUp 0.5s ease-out forwards;
+  transition: color 0.3s;
+}
+
+.menu_content li:nth-child(2) {
+  animation-delay: 0.2s; // Stagger the animation
+}
+
+.menu_content li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.menu_content li:nth-child(4) {
+  animation-delay: 0.6s;
+}

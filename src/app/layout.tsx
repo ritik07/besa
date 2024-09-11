@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import NavBarWeb from "../components/nav-bar/web/nav-bar-web";
+import classNames from "classnames";
+import { Montserrat } from "next/font/google";
+import "../styles/index.scss";
+import styles from "./layout.module.scss";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,10 +32,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${montserrat.className}`}>
+        {/* <div className={classNames(styles.mobileView, styles.cs_sticky_nav)}>
+          <NavBarMobile />
+        </div> */}
+
+        <div className={classNames(styles.desktopView, styles.cs_sticky_nav)}>
+          <NavBarWeb />
+        </div>
         {children}
+        {/* <div className={classNames(styles.footer_container)}>
+          <Footer />
+        </div> */}
       </body>
     </html>
   );
