@@ -55,7 +55,7 @@ const NavBarWeb = () => {
         </Col>
         <Col xl={4} lg={6} md={3}></Col>
         <Col xl={12} lg={6} md={3} className={CSS.menu_container}>
-          <div className={classNames("cs-dis-flex cs-jc-end")}>
+          {/* <div className={classNames("cs-dis-flex cs-jc-end")}>
             <div></div>
             <div
               onClick={handleMenuClick}
@@ -71,7 +71,7 @@ const NavBarWeb = () => {
 
               <Hamburger color="#000" toggled={isOpen} />
             </div>
-          </div>
+          </div> */}
         </Col>
       </Row>
 
