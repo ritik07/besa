@@ -7,7 +7,6 @@ import TextRevealByWord from "@/components/magicui/text-reveal";
 import Image from "next/image";
 import Ripple from "@/components/magicui/ripple";
 import HomePage from "@/pages/home/page";
-import AboutBrief from "@/components/about-brief/aboutBrief";
 
 export default function Home() {
   // const [color, setColor] = useState("#ffffff");
@@ -31,9 +30,6 @@ export default function Home() {
   return (
     <div>
       <HomePage />
-      <div>
-        <AboutBrief />
-      </div>
     </div>
   );
 }
