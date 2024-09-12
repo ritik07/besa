@@ -18,8 +18,8 @@ const Ripple = React.memo(function Ripple({
   return (
     <div
       className={cn(
-        "absolute inset-0 bg-white/5 [mask-image:linear-gradient(to_bottom,white,transparent)]",
-        className,
+        "absolute inset-0 bg-transparent [mask-image:linear-gradient(to_bottom,white,transparent)]",
+        className
       )}
     >
       {Array.from({ length: numCircles }, (_, i) => {
@@ -42,7 +42,7 @@ const Ripple = React.memo(function Ripple({
                 borderStyle,
                 borderWidth: "1px",
                 borderColor: `hsl(var(--foreground), ${borderOpacity / 100})`,
-                top: "50%",
+                top: "40%",
                 left: "50%",
                 transform: "translate(-50%, -50%) scale(1)",
               } as CSSProperties

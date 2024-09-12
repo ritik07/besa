@@ -75,7 +75,7 @@ const NavBarWeb = () => {
         </Col>
       </Row>
 
-      <div
+      {/* <div
         ref={menuRef}
         className={classNames(CSS.menu_slide_in)}
         style={{
@@ -89,8 +89,6 @@ const NavBarWeb = () => {
           {isOpen ? <Hamburger toggled={isOpen} /> : null}
         </div>
         <div className={classNames(CSS.menu_content)}>
-          {/* Your menu items here */}
-          {/* <h2>Menu Content</h2> */}
           <ul>
             <li>Home</li>
             <li>About</li>
@@ -98,7 +96,7 @@ const NavBarWeb = () => {
             <li>Contact</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
