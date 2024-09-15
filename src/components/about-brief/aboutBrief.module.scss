@@ -1,12 +1,42 @@
 .about_brief_container {
-  background: linear-gradient(180deg, #000000, #272727);
+  background: linear-gradient(180deg, #000000, #272727) !important;
   color: #fff;
   padding: 40px 0;
   text-align: center;
 }
 
-.text_transparent_abt_brief{
-  color: rgba(255, 255, 255, 0.326);
+.row_container {
+  cursor: pointer; // Make the row clickable
+
+  .title_container {
+    background: #f5f5f500; // Default background
+    transition: background 0.3s ease;
+    padding: 20px 30px;
+  }
+}
+
+.active {
+  .title_container {
+    border-radius: 6px;
+    background: #2e2e32; // Apply this background only for the active row
+  }
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.brief {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffffab;
+}
+
+.text_transparent_abt_brief {
+  color: #ffffffab;
 }
 
 .about_content {

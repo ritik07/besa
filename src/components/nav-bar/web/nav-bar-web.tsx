@@ -41,7 +41,7 @@ const NavBarWeb = () => {
       <Row
         className={classNames("cs-tp-10 cs-bp-10", CSS.cs_nav_bar_container)}
       >
-        <Col xl={3} lg={3} md={2}></Col>
+        <Col xl={2} lg={3} md={2}></Col>
         <Col xl={5} lg={3} md={3}>
           <div className={classNames(CSS.cs_navbar_logo_container)}>
             <Link href="/">
