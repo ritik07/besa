@@ -66,7 +66,7 @@ const AboutBrief = () => {
             CSS.text_transparent_abt_brief
           )}
         >
-          <GradualSpacing className="sm:text-[22px] font-semibold" text="Who are we & What we do?" />
+          <GradualSpacing text="Who are we & What we do?" />
         </div>
 
         <div className="z-10 mt-32 sm:ml-16 sm:mr-16 lg:ml-40 lg:mr-40">

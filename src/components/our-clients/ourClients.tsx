@@ -16,7 +16,6 @@ const OurClients = () => {
         )}
       >
         <GradualSpacing
-          className="sm:text-[22px] font-semibold"
           text="Our esteemed clients"
         />
       </span>
