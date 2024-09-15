@@ -35,7 +35,7 @@ const NavBarWeb = () => {
       });
     }
   };
-
+ 
   return (
     <div>
       <Row
