@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Row, Col } from "antd";
 import CSS from "./aboutBrief.module.scss"; // SCSS module import
-import Meteors from "../magicui/meteors";
-import Particles from "../magicui/particles";
 import classNames from "classnames";
 import BlurIn from "../magicui/blur-in";
 import { useInView } from "react-intersection-observer";

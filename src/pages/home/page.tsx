@@ -6,6 +6,7 @@ import CSS from "./home.module.scss";
 import classNames from "classnames";
 import Particles from "@/components/magicui/particles";
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
+import ClientBase from "@/components/client-base/clientBase";
 
 const HomePage = () => {
   const color = "#FF204E";
@@ -32,10 +33,11 @@ const HomePage = () => {
         <div className={classNames(CSS.our_clients_container)}>
           <OurClients />
         </div>
+
         <Particles
           className="absolute inset-0"
           quantity={180}
-          ease={80}
+          ease={150}
           size={2}
           staticity={4}
           color={color}
