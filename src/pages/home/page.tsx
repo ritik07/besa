@@ -7,6 +7,8 @@ import classNames from "classnames";
 import Particles from "@/components/magicui/particles";
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 import ClientBase from "@/components/client-base/clientBase";
+import SocialMedia from "@/components/social-media/socialMedia";
+import Services from "@/components/services/services";
 
 const HomePage = () => {
   const color = "#FF204E";
@@ -32,6 +34,14 @@ const HomePage = () => {
 
         <div className={classNames(CSS.our_clients_container)}>
           <OurClients />
+        </div>
+
+        <div>
+          <SocialMedia />
+        </div>
+
+        <div className={classNames(CSS.our_services_container)}>
+          <Services />
         </div>
 
         <Particles

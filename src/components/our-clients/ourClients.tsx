@@ -51,51 +51,51 @@ const OurClients = () => {
               <Image height={300} src={one} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            {/* <Col xs={12} xl={4}>
               <Image height={300} src={two} alt="" />
-            </Col>
+            </Col> */}
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={three} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={four} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={five} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={six} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={seven} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={eight} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={nine} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={ten} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={elevel} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={twelve} alt="" />
             </Col>
 
-          <Col xs={12} xl={4}>
+            <Col xs={12} xl={4}>
               <Image height={300} src={thirteen} alt="" />
             </Col>
           </Row>

@@ -14,7 +14,7 @@
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
-    "framer-motion": "^11.5.4",
+    "framer-motion": "^11.9.0",
     "gsap": "^3.12.5",
     "hamburger-react": "^2.5.1",
     "lucide-react": "^0.439.0",

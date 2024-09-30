@@ -1,0 +1,39 @@
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #cfcfcf; // Example color, adjust as per your theme
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #ccc; // Adjust to match your theme
+  margin-bottom: 1rem;
+}
+
+.serviceDetail {
+  font-size: 1.1rem;
+  color: #bbb; // Example color, change accordingly
+  margin-bottom: 2rem;
+}
+
+.serviceItem {
+  font-size: 1rem;
+  color: #aaa; // Modify as per your design
+  margin-bottom: 1.5rem;
+
+  strong {
+    color: #fff; // Use a contrasting color for emphasis
+  }
+}
+
+.serviceConclusion {
+  font-size: 1.1rem;
+  color: #ccc; // Adjust as per theme
+  margin-top: 2rem;
+}
+
+.orbit_txt {
+  font-size: 18px;
+  font-weight: 600;
+}
