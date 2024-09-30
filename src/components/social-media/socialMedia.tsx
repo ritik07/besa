@@ -14,9 +14,6 @@ import {
 } from "@ant-design/icons";
 
 const Icons = {
-  twitter: () => <TwitterCircleFilled />,
-  facebook: () => <FacebookFilled />,
-  instagram: () => <InstagramOutlined />,
   openai: () => <Image src={besa} alt="besa" />,
   whatsapp: () => (
     <svg
@@ -72,7 +69,6 @@ const Icons = {
       />
     </svg>
   ),
-  behance: () => <BehanceOutlined />,
   messenger: () => (
     <svg
       width="100"
@@ -181,21 +177,21 @@ const SocialMedia = () => {
             <div className="flex size-full flex-col max-w-lg max-h-[200px] items-stretch justify-between gap-10">
               <div className="flex flex-row items-center justify-between">
                 <Circle ref={div1Ref}>
-                  <Icons.twitter />
+                  <TwitterCircleFilled />
                 </Circle>
                 <Circle ref={div5Ref}>
-                  <Icons.facebook />
+                  <FacebookFilled />
                 </Circle>
               </div>
               <div className="flex flex-row items-center justify-between">
                 <Circle ref={div2Ref}>
-                  <Icons.instagram />
+                  <InstagramOutlined />
                 </Circle>
                 <Circle ref={div4Ref} className="size-16">
                   <Icons.openai />
                 </Circle>
                 <Circle ref={div6Ref}>
-                  <Icons.behance />
+                  <BehanceOutlined />
                 </Circle>
               </div>
               <div className="flex flex-row items-center justify-between">
@@ -282,10 +278,10 @@ const SocialMedia = () => {
 
               <div className="flex flex-col justify-center gap-2">
                 <Circle ref={div9Ref}>
-                  <Icons.facebook />
+                  <FacebookFilled />
                 </Circle>
                 <Circle ref={div10Ref}>
-                  <Icons.behance />
+                  <BehanceOutlined />
                 </Circle>
                 <Circle ref={div11Ref}>
                   <Icons.whatsapp />
@@ -294,7 +290,7 @@ const SocialMedia = () => {
                   <Icons.messenger />
                 </Circle>
                 <Circle ref={div13Ref}>
-                  <Icons.twitter />
+                  <TwitterCircleFilled />
                 </Circle>
               </div>
             </div>
